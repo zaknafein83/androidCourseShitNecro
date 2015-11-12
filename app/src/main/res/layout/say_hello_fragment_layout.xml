@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <EditText
+        android:id="@+id/GenericEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#91b5a8"
+        android:hint="inserisci il tuo nome"
+        android:padding="5dp"
+        android:textColor="#F00"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/GenericButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/GenericEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#3cf"
+        android:text="Say Hello!"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/GenericText"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/GenericButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#fff47e"
+        android:textColor="#70d1ff" />
+</RelativeLayout>
